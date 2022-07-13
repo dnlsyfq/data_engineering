@@ -86,3 +86,11 @@ pgcli -h localhost -p 5432 -u root -d ny_taxi
 ```
 wget https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv 
 ```
+
+---
+
+```
+git lfs install
+git lfs migrate import --include="*.csv"
+git push
+```
