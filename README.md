@@ -78,4 +78,11 @@ postgres:13
 pip install pgcli
 pgcli -h localhost -p 5432 -u root -d ny_taxi
 \dt
+\d yellow_taxi_data
+```
+
+
+* Download csv
+```
+wget https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv 
 ```
